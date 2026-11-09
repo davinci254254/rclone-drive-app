@@ -15,7 +15,7 @@
 </head>
 <body>
   <h1>Privacy policy</h1>
-  <p class="sub">rclone Drive access, a personal single-user app. Effective November 9, 2026.</p>
+  <p class="sub">rclone Drive access, a personal single-user app. Updated November 9, 2026.</p>
 
   <p>This OAuth client is used only by its owner (GitHub user
   <a href="https://github.com/davinci254254">davinci254254</a>) to access the owner's
@@ -23,14 +23,16 @@
   computer. It is not offered to anyone else.</p>
 
   <h2>What data is accessed</h2>
-  <p>With the owner's consent, the app uses the Google Drive read-only scope
-  (<code>https://www.googleapis.com/auth/drive.readonly</code>) to list the owner's
-  Drive files and their metadata and to download file contents.</p>
+  <p>With the owner's consent, the app uses the Google Drive scope
+  (<code>https://www.googleapis.com/auth/drive</code>) to list the owner's Drive
+  files and their metadata, download and upload file contents, and create, move
+  or delete files and folders.</p>
 
   <h2>How it is used</h2>
-  <p>Files are listed or downloaded only when the owner runs rclone, and only to the
-  owner's own computer, so the owner can work with their own files there. The app
-  cannot create, change or delete anything in Google Drive.</p>
+  <p>Files are read or changed only when the owner runs rclone (directly or through
+  the owner's own scripts) on the owner's own computers, for example to pass job
+  outputs between the owner's Linux and Windows machines. Data moves only between
+  those computers and the owner's own Google Drive.</p>
 
   <h2>Storage</h2>
   <p>OAuth tokens and any downloaded files are stored only on the owner's computer.
